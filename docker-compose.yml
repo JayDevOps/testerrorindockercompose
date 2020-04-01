@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  ubuntu:
+    image: vairamsvsjdo/ubuntu:focal
+    volumes:
+      - ./src:/src
